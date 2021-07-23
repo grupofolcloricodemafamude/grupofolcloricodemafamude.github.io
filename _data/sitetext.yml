@@ -20,7 +20,7 @@ pt:
     people:
       - name: "Maria Albina Moreira"
         role: "Bininha"
-        image: /assets/img/team/500x500.jpg
+        image: /assets/img/bininha.jpeg
         href: /pages/bio-bininha
 
   services:
@@ -49,7 +49,7 @@ pt:
     title: "Contactos"
     list:
       - title: "Morada"
-        desc: "Rua Grupo Folclórico de Mafamude, nº 101, 4430-049 Mafamude,Vila Nova de Gaia, Porto,Portugal"
+        desc: Rua Grupo Folclórico de Mafamude, nº 101 <br> 4430-049 Mafamude <br> Vila Nova de Gaia, Porto,Portugal
         icon: fas fa-envelope #find more at https://fontawesome.com/icons
       - title: "E-mail"
         desc: "grupofolcloricodemafamude@gmail.com"
