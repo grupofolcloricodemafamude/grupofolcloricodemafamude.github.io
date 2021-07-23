@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <small class="block">&copy; {{ site.time | date: '%Y' }} {{ site.title }} &middot; &lt;/&gt; Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/raviriley/agency-jekyll-theme">Agency Jekyll Theme</a></small>
+          <small class="block">&copy; {{ site.time | date: '%Y' }} {{ site.title }} &nbsp; &middot; &lt;/&gt; Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/raviriley/agency-jekyll-theme">Agency Jekyll Theme</a></small>
         </div>
 		<!-- Social Media -->
         <div class="col-md-4">
@@ -17,6 +17,13 @@
 			  {% endif %}
             </li>
 			{% endfor %}
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <small>WebMaster: <a href=" {{ site.webmaster.url }} ">{{ site.webmaster.name }}</a></small>
+            </li>
           </ul>
         </div>
       </div>

@@ -13,16 +13,18 @@
 
 theme: jekyll-agency
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://grupofolcloricodemafamude.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
+plugins:
+ - jekyll-sitemap
 
 title      : Grupo Folclórico de Danças e Cantares de Mafamude
 email      : grupofolcloricodemafamude@gmail.com #this is also the email contact forms will go to
 description: "Site do Grupo Folclórico de Danças e Cantares de Mafamude"
-author     : Eduardo Fernande
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+
+logo:
+ path: /assets/img/logo.png
+ height: 60 #height in px, defaults to 52px
 
 locale: "pt" # See available languages in _data/sitetext.yml
 
@@ -30,6 +32,13 @@ collections:
   portfolio:
 
 markdown: kramdown
+
+google:
+ verification: U_9fhuBeLvuhutLHwbjAjxvCwAkSOrw6f0IJR7ecjag
+
+webmaster:
+ name: Eduardo Fernandes
+ url: https://eduardofer.github.io/pages/contacts/
 
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
