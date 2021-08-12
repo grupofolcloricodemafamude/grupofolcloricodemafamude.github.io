@@ -34,7 +34,9 @@ collections:
 markdown: kramdown
 
 google:
- verification: U_9fhuBeLvuhutLHwbjAjxvCwAkSOrw6f0IJR7ecjag
+ verification:
+  - U_9fhuBeLvuhutLHwbjAjxvCwAkSOrw6f0IJR7ecjag
+  - DILF5C7pSKeTpwhx6FtZaTzlfvxAd-Dz2CmMI7z8G6Y
 
 webmaster:
  name: Eduardo Fernandes
